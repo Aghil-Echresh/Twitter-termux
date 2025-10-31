@@ -1,37 +1,37 @@
-# Tweetshell v1.0
-Multi-thread Twitter BruteForcer in Shell Script
+# توییت‌شل نسخه ۱.۰
+حمله‌ی چند رشته‌ای توییتر بروت‌فورسر در شل اسکریپت
 
-## Author: github.com/thelinuxchoice
-## IG: instagram.com/thelinuxchoice
-## Edit for Termux : github.com/samsesh
-Tweetshell is an Shell Script to perform multi-threaded brute force attack against Twitter, this script can bypass login limiting and it can test infinite number of passwords with a rate of +400 passwords/min using 20 threads.
+## نویسنده: github.com/thelinuxchoice
+## اینستاگرام: instagram.com/thelinuxchoice
+## ویرایش برای Termux: github.com/samsesh
+Tweetshell یک اسکریپت Shell برای انجام حمله جستجوی فراگیر چند رشته‌ای علیه توییتر است، این اسکریپت می‌تواند محدودیت ورود به سیستم را دور بزند و تعداد نامحدودی رمز عبور را با سرعت +۴۰۰ رمز عبور در دقیقه با استفاده از ۲۰ رشته آزمایش کند.
 
-## Legal disclaimer:
+## سلب مسئولیت قانونی:
 
-Usage of TweetShell for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
+استفاده از TweetShell برای حمله به اهداف بدون رضایت قبلی طرفین غیرقانونی است. این مسئولیت کاربر نهایی است که از تمام قوانین محلی، ایالتی و فدرال مربوطه پیروی کند. توسعه‌دهندگان هیچ مسئولیتی را بر عهده نمی‌گیرند و مسئول هیچ گونه سوءاستفاده یا خسارت ناشی از این برنامه نیستند.
 
-![tweet](https://user-images.githubusercontent.com/34893261/38052298-2abf6b28-32a7-11e8-83e6-de7c015b774e.png)
+![توییت](https://user-images.githubusercontent.com/34893261/38052298-2abf6b28-32a7-11e8-83e6-de7c015b774e.png)
 
-### Features
-- Multi-thread (400 pass/min, 20 threads)
-- Save/Resume sessions
-- Anonymous attack through TOR
-- Default password list (best +39k 8 letters)
-- Check valid username
-- Check and Install all dependencies
+### ویژگی‌ها
+- چند رشته‌ای (۴۰۰ پاس در دقیقه، ۲۰ رشته)
+- ذخیره/از سرگیری جلسات
+- حمله ناشناس از طریق TOR
+- لیست رمزهای عبور پیش‌فرض (بهترین +۳۹ هزار ۸ حرف)
+- بررسی نام کاربری معتبر
+- بررسی و نصب تمام وابستگی‌ها
 
-### Usage:
+### کاربرد:
 ```
-git clone https://github.com/thelinuxchoice/tweetshell
-cd tweetshell
+کلون گیت https://github.com/thelinuxchoice/tweetshell
+توییت‌شل سی‌دی
 chmod +x tweetshell.sh
-service tor start
-sudo ./tweetshell.sh
+سرویس شروع می‌شود
+سودو ./tweetshell.sh
 ```
 
-### Install requirements (Curl, Tor):
+### الزامات نصب (Curl، Tor):
 
 ```
-chmod +x install.sh
+دستور chmod +x install.sh را اجرا کنید.
 ./install.sh
 ```
